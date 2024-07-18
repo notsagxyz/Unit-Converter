@@ -1,0 +1,67 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    color: #fff;
+    background: linear-gradient(to right, #1f2731, rgb(10, 53, 31)); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #4c504bfd;
+    padding: 30px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.container input[type="number"] {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none; 
+    border-radius: 10px;
+    box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.53);
+    font-size: 16px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container button {
+    background-color: #4CAF50;
+    transition: background-color 0.2s ease;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+
+
