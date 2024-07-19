@@ -1,6 +1,5 @@
 function conversor() {
     const metersInput = document.getElementById('meters').value;
-    const meters = parseFloat(metersInput);
     
     if (meters) {
         const centimeters = metersInput * 100;
